@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Github Actions learn</h1>
+      <h1>Github Actions</h1>
       <h2>Complete course</h2>
     </>
   )
