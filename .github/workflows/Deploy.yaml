@@ -9,7 +9,7 @@ on:
       - main
       - 'feature/**'
     paths-ignore:
-      - '.github/workflow/*'  
+      - '.github/workflows/*'  
       - README.md
 
 jobs:
