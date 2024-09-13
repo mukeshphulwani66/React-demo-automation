@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <h1>Github Actions</h1>
-      <h2>Complete course</h2>
+      <h2>Complete course by mukesh</h2>
     </>
   )
 }
