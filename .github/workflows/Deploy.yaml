@@ -22,7 +22,10 @@ jobs:
       - name: Get code
         run: |
           echo "cloning repo..."
-          echo "${{github}}"
+          echo "${{toJson(github)}}"
+          git clone https://github.com/${{ github.repository }}.git
+          cd ${{ github.repository }}
+          ls
 
       - name: Install NodeJS
         uses: actions/setup-node@v4
